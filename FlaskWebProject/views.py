@@ -20,6 +20,8 @@ imageSourceUrl = 'https://'+ app.config['BLOB_ACCOUNT']  + '.blob.core.windows.n
 @login_required
 def home():
     user = User.query.filter_by(username=current_user.username).first_or_404()
+    if user:
+        app.logger.info('No issue.')
     posts = Post.query.all()
     return render_template(
         'index.html',
