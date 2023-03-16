@@ -26,6 +26,4 @@ Because we can easily and quickly deploy this program on Azure App Service, also
 
 ### Assess app changes that would change your decision.
 
-*Detail how the app and any other needs would have to change for you to change your decision in the last section.*
-
 Virtual Machines: For applications that require more flexibility and changeability or high processor as image, video processing, virtual machines are considerably superior.
